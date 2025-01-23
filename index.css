@@ -1,0 +1,36 @@
+test {
+    /* position: relative; */
+}
+
+.test1 {
+    height: 345px;
+    width: 400px;
+    background-color: green;
+
+
+    border-color: black;
+    border-width: 8px;
+    border-style: solid;
+    
+
+    /* border: 8px solid black; */
+    /* top: -83px;
+   right: 295px;
+   left: 295px; */
+    /* display: flex; */
+    justify-self: center;
+    margin-top: 450px;
+    /* position: relative; */
+}
+
+.input1 {
+    /* display: flex;
+    justify-self: center; */
+    /* flex-direction: row-reverse; */
+    /* margin-top:500px */
+
+}
+.insertNum1{
+    display: flex;
+    gap: 16px;
+}

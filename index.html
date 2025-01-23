@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+
+<body id="test" style="background-color: teal;">
+
+
+    <div class="test1">
+        <p>Bill</p>
+        <div id="input"></div>
+        <div>
+            <input class="input1" type="number" />
+
+        </div>
+        <p>Select Tip %</p>
+        <div id="insertNum1">
+            <button class="nums" onclick="insertNum(5)">5%</button>
+            <button class="nums" onclick="insertNum(10)">10%</button>
+            <button class="nums" onclick="insertNum(15)">15%</button>
+            <button class="nums" onclick="insertNum(20)">20%</button>
+
+        </div>
+        <div>
+            <button class="nums" onclick="insertNum(35)">35%</button>
+            <button class="nums" onclick="insertNum(50)">50%</button>
+            <button class="nums" onclick="insertNum(65)">65%</button>
+            <button class="nums" onclick="insertNum(80)">80%</button>
+        </div>
+      
+        <div id="output"></div>
+    </div>
+
+    <script>
+
+        const input = document.getElementsByTagName('input')[0]
+
+
+        function insertNum(percent) {
+            const result = Number(input.value) + ((Number(input.value) / 100) * percent)
+
+            const output = document.getElementById('output');
+            output.innerText = result
+        }
+
+
+
+
+
+
+
+
+        // var insertNum1 = document.getElementById("insertNum1");
+        // function insertNum(num) {
+        //     insertNum1.innerText = insertNum1.innerText + num;
+        // }
+
+        // var b = document.getElementById("input1");
+
+        // function updatecalc() {
+        // var c = document.getElementById("calculate");
+        // c.value = ((a.value / 100 * parseInt(b.value)) + parseInt(a.value));
+        // if (a.value == "" || c.value == "") {
+        //     c.value = c.defaultValue;
+        // }
+        //     let c;
+        //     if (c.value == "") {
+        //         const [num1, num2] = input.innerText.split()
+        //         c.value = ((a.value / 100 * (b.value)) + (a.value));
+        //     }
+        //     input.innerText = c
+        // }
+
+
+    </script>
+</body>
+
+</html>
