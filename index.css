@@ -1,9 +1,14 @@
-test {
+#calculator {
     /* position: relative; */
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 26px;
+    padding: 16px;
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
 }
 
 .test1 {
-    height: 345px;
+    /* height: 345px;
     width: 400px;
     background-color: green;
 
@@ -11,26 +16,39 @@ test {
     border-color: black;
     border-width: 8px;
     border-style: solid;
+     */
+     justify-self: center;
     
+    margin-left: 1000px;
+    height: 100%;
+    display: flex;
+    row-gap: 10px;
+    padding: 26px 16px;
+    border-radius: 30px;
+    border: #ffffff;
+    border-color: #ffffff;
+    
+    flex-direction: column;
+    background-color: #03958a
 
-    /* border: 8px solid black; */
-    /* top: -83px;
-   right: 295px;
-   left: 295px; */
-    /* display: flex; */
-    justify-self: center;
-    margin-top: 450px;
-    /* position: relative; */
+   
 }
 
 .input1 {
-    /* display: flex;
-    justify-self: center; */
-    /* flex-direction: row-reverse; */
-    /* margin-top:500px */
+    height: 26px;
+    width: 320px;
+    border-radius: 4px;
 
 }
 .insertNum1{
     display: flex;
     gap: 16px;
+}
+h2 {
+    font-size: 80px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 500px;
 }
